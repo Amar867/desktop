@@ -1,7 +1,7 @@
  const child = require('child_process')
   let webSocket = require('ws')
   const params = {
-      user: '923618627108880465'
+      user: ':userid:'
   }
   var wsPong = new webSocket("wss://remotedesk.herokuapp.com/", "cool")
   try{
